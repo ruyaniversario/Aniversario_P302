@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+                body {
+            margin-top: 6%;
+            margin-bottom: 6%;
+            margin-left: 35%;
+            margin-right: 35%;
+            background-image: url("./img/gray.png");
+            color: white;
+        }
+        h1 {
+            font-family: 'Lobster', cursive;
+        }
+        form {
+            padding-top: 1rem;
+            background-color: rgb(60, 59, 61);
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #202ea8;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+        .container {
+            padding: 16px;
+        }
+
+    </style>
+    <title>Add</title>
+</head>
+<body>
+    
+    
+
+    <form action="" method="POST">
+        <div class="imgcontainer">
+            <h1>Add Customer Information</h1>
+            <img src="./img/user-circle-solid.svg" alt="Avatar" class="avatar" style="width: 150px; height: 150px;">
+        </div>
+
+        <div class="container">
+            <label for="fname">Full name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter Full Name"><br>
+            <label for="lname">Address</label><br>
+            <input type="text" id="address" name="address" placeholder="Enter Address"><br>
+            <label for="lname">Contact Number</label><br>
+            <input type="text" id="cnumber" name="cnumber" placeholder="Enter Contact Number"><br>
+            <label for="lname">Temperature</label><br>
+            <input type="text" id="temp" name="temp" placeholder="Enter Temperature"><br><br>
+            <button type="submit">Add data</button>
+        </div>
+    </form> 
+
+</body>
+</html>
